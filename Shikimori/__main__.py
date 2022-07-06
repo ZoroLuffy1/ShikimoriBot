@@ -81,11 +81,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello {}! Nice to meet you!
-
-I am *Pirate Hunter Zoro* , a group management bot based on the anime *One Piece*[!](https://telegra.ph/file/914840dd6bb35fbb6271b.mp4)
-
-*Click on the Commands Button below to go through my commands.*
+*──────「Hey, I'm Mitsuri🌸」────*
+*×× I'm a Hashira! A Anime themed advance group management bot with a lot of advance Features! ××*
+➖➖➖➖➖➖➖➖➖➖
+*×× Try The Help & Command Buttons Below To Know My Abilities ××*
+➖➖➖➖➖➖➖➖➖➖
 """
 
 buttons = [
