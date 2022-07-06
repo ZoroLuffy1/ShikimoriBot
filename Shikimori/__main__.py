@@ -81,25 +81,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*──────「Hey, I'm Mitsuri🌸」────*
+*────「Hey, I'm Mitsuri🌸」────*
 *×× I'm a Hashira! A Anime themed advance group management bot with a lot of advance Features! ××*
 ➖➖➖➖➖➖➖➖➖➖
-*×× Try The Help & Command Buttons Below To Know My Abilities ××*
+*×× Try The Help & Command Buttons Below To Know My Abilities ××*(https://telegra.ph/file/f63ce11f76db7f086af1f.jpg)
 ➖➖➖➖➖➖➖➖➖➖
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🙃 Add Zoro to your Group 🙃", url="t.me/Hunter_Zoro_Robot?startgroup=true"),
+            text="🙃 Add Mitsuri to your Group 🙃", url="t.me/Hunter_Zoro_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="❓Help", callback_data="Shikimori_"),
-        InlineKeyboardButton(text=" 💬Commands", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="🚨Support Grp", url="https://t.me/rukaxSuport"),
+        InlineKeyboardButton(text="⚙ EST", url="https://t.me/est_official"),
+        InlineKeyboardButton(text="🎉 EST News", url="https://t.me/estanimes"),
         InlineKeyboardButton(text="❗Updates", url="https://t.me/rukaxUpdates"),
+    ],
+    [
+        InlineKeyboardButton(text="🔐 Help and Commands", callback_data="help_back"),
+        
    
     ], 
 ]
