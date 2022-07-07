@@ -680,7 +680,7 @@ def site_search(update: Update, context: CallbackContext, site: str):
         message.reply_text("Give something to search")
         return
 
-    elif site == "est":
+     if site == "est":
         search_url = f"https://animehindisub.com/?s={search_query}"
         html_text = requests.get(search_url).text
         soup = bs4.BeautifulSoup(html_text, "html.parser")
